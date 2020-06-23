@@ -26,8 +26,17 @@ header img {
   padding: 180px 0 100px 0;
   background-image: url(tanjung_an.png);
   background-size: cover;
-  color: white;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   text-align: center;
+}
+@keyframes example {
+0% {color: white;}
+25% {color: yellow;}
+50% {color: green;}
+75% {color: red;}
+100% {color: white;}
 }
 .top-wrapper h1 {
   opacity: 0.7;
